@@ -15,7 +15,7 @@ unless defined? TEST_ROOT
   require 'test_help'
   
   class ActiveSupport::TestCase
-    # Transactional fixtures accelerate your tests by wrapping each test method
+    # Transactional test  fixtures accelerate your tests by wrapping each test method
     # in a transaction that's rolled back on completion.  This ensures that the
     # test database remains unchanged so your fixtures don't have to be reloaded
     # between every test method.  Fewer database queries means faster tests.
